@@ -21,8 +21,10 @@ WORKDIR /home/app/
 
 COPY --chown=app:app index.py           .
 COPY --chown=app:app requirements.txt   .
+COPY --chown=app:app requirements-dev.txt   .
 USER root
 RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir -r requirements-dev.txt
 
 # Build the function directory and install any user-specified components
 USER app
