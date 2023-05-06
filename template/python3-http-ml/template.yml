@@ -21,3 +21,6 @@ build_options:
       - freetype-dev
       - libpng-dev
       - openblas-dev
+      - libjpeg-dev
+      - zlib1g-dev
+
