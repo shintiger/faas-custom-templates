@@ -23,7 +23,7 @@ build_options:
       - python3-pip
       - build-essential
       - wget
-      - libfreetype-dev
+      - libfreetype6-dev
       - libpng-dev
       - libopenblas-dev
       - libjpeg-dev
