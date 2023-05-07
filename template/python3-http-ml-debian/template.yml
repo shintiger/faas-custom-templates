@@ -22,7 +22,6 @@ build_options:
       - gfortran
       - python3-pip
       - build-essential
-      - build-dep
       - wget
       - libfreetype-dev
       - libpng-dev
