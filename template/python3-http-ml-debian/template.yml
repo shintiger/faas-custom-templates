@@ -1,0 +1,19 @@
+language: python3-http-ml-debian
+fprocess: python index.py
+build_options:
+  - name: libpq
+    packages: 
+      - libpq-dev
+      - gcc
+      - python3-dev
+  - name: scipy
+    packages:
+      - gfortran
+      - py-pip
+      - build-base
+      - wget
+      - freetype-dev
+      - libpng-dev
+      - openblas-dev
+      - libjpeg-dev
+      - zlib1g-dev
