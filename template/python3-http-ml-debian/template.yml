@@ -20,11 +20,12 @@ build_options:
   - name: scipy
     packages:
       - gfortran
-      - py-pip
-      - build-base
+      - python3-pip
+      - build-essential
+      - build-dep
       - wget
-      - freetype-dev
+      - libfreetype-dev
       - libpng-dev
-      - openblas-dev
+      - libopenblas-dev
       - libjpeg-dev
       - zlib1g-dev
