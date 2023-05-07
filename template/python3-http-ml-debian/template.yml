@@ -1,6 +1,17 @@
 language: python3-http-ml-debian
 fprocess: python index.py
 build_options:
+  - name: dev
+    packages: 
+      - make
+      - automake
+      - gcc
+      - g++
+      - subversion
+      - python3-dev
+      - musl-dev
+      - libffi-dev
+      - git
   - name: libpq
     packages: 
       - libpq-dev
