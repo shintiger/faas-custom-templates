@@ -28,3 +28,6 @@ build_options:
       - libopenblas-dev
       - libjpeg-dev
       - zlib1g-dev
+      - ffmpeg
+      - libsm6
+      - libxext6
